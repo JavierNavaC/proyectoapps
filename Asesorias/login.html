@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>AsesorApp - Login</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <body>
+        <div class="cabecera">
+
+            <div class="logo">
+                <img src="logo A.png"/>
+            </div>
+
+            <div class="buscador">
+                <input id="search" type="image" src="botonBusqueda.png" width="721px" height="67px"/>
+            </div>
+            <div class="botonPerfil">
+                <input id="perfil" type="image" src="iconoPerfil.png" width="72px" height="72px"/>
+            </div>
+            <div class="botonNotificaciones">
+                <input id="notificacion" type="image" src="iconoNotificacion.png" width="72px" height="72px"/>
+            </div>
+            <div class="botonMensaje">
+                <input id="notificacion" type="image" src="iconoMensaje.png" width="87px" height="62px"/>
+            </div>
+        </div>
+
+        <div class="login-page">
+            <div class="form">
+              <form class="register-form" action ="crearUsuario.php" method ="POST" >
+                <input type="text" name ="nombre" placeholder="Nombre" required/>
+                <input type="text" name ="apellidop" placeholder="Apellido Paterno" required/>
+                <input type="text" name ="apellidom" placeholder="Apellido Materno"required/>
+                <input type="password" name ="pass" placeholder="Contraseña"required/>
+                <input type="text" name ="correo" placeholder="Correo electrónico"required/>
+                
+                <button >create</button>
+                
+                <p class="message">Ya tienes una cuenta? <a href="#">Iniciar sesión</a></p>
+              </form>
+              <form method="GET" action="Pagina Bienvenida/bienvenida.html" class="login-form">
+                <input type="text" name ="correo" placeholder="Correl electrónico" required/>
+                <input type="password" name ="pass" placeholder="Contraseña" required/>
+                
+                <button type="submit">Iniciar</button>
+                
+                <p class="message">No estás registrado? <a href="#">Crea una cuenta</a></p>
+              </form>
+            </div>
+          </div>
+        <footer>
+            <p id="f1">AsesorApp © 2020</p>
+            <p id="f2">Benemérita Universidad Autónoma de Puebla</p>
+            <p id="f3">Contactanos: AsesorApp@empresa.com.mx</p>
+        </footer>
+        <script>
+            $('.message a').click(function() {
+            $('form').animate({
+                height : "toggle",
+                opacity : "toggle"
+            }, "slow");
+            });
+        </script>
+    </body>
+    
+</html>

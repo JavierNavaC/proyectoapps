@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: 'miFuente';
+    src: url(arial-rounded.ttf);
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+}
+
+.cabecera{
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+    height: 162px;
+    background: #5C5CD3;
+}
+
+.logo{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 7px;
+    left: 100px;
+}
+
+.buscador{
+    margin: 0px;
+    padding: 0px;
+    width: 721px;
+    height: 67px;
+    position: absolute;
+    top: 45px;
+    left: 490px;
+}
+
+.botonPerfil{
+    margin: 0px;
+    padding: 0px;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 27px;
+    left: 1390px;
+}
+
+.botonNotificaciones{
+    margin: 0px;
+    padding: 0px;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 27px;
+    left: 1550px;
+}
+
+.botonMensaje{
+    margin: 0px;
+    padding: 0px;
+    width: 87px;
+    height: 62px;
+    position: absolute;
+    top: 35px;
+    left: 1723px;
+}
+
+.cuerpo{
+    width: 1920px;
+    height: 860px;
+    background-image: url(estudio.jpg);
+}
+
+.saludo{
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+    height: 157px;
+    font-family: 'miFuente';
+    font-size: 29px;
+    position: absolute;
+    text-align: center;
+
+}
+
+#s1{
+    margin-top: 62px;
+}
+
+.seccion1{
+    margin: 0px;
+    padding: 0px;
+    width: 975px;
+    height: 706px;
+    position: absolute;
+    font-family: 'miFuente';
+    top: 317px;
+}
+
+#s2{
+    font-size: 27px;
+    margin-top: 144px;
+    margin-left: 368px;
+}
+
+#l1{
+    font-size: 21px;
+    margin-top: 15px;
+    margin-left: 368px;
+}
+
+.botonInformacion{
+    margin: 0px;
+    padding: 0px;
+    width: 189px;
+    height: 53px;
+    position: absolute;
+    top: 641px;
+    left: 414px;
+}
+
+.seccion2{
+    margin: 0px;
+    padding: 0px;
+    width: 945px;
+    height: 706px;
+    position: absolute;
+    font-family: 'miFuente';
+    top: 317px;
+    left: 975px;
+}
+
+#s3{
+    font-size: 27px;
+    margin-top: 79px;
+    margin-left: 132px;
+}
+
+.botonOpcion1{
+    margin: 0px;
+    padding: 0px;
+    width: 572px;
+    height: 71px;
+    position: absolute;
+    top: 466px;
+    left: 1038px;
+}
+
+.botonOpcion2{
+    margin: 0px;
+    padding: 0px;
+    width: 343px;
+    height: 71px;
+    position: absolute;
+    top: 590px;
+    left: 1038px;
+}
+
+.botonOpcion3{
+    margin: 0px;
+    padding: 0px;
+    width: 343px;
+    height: 71px;
+    position: absolute;
+    top: 711px;
+    left: 1038px;
+}
+
+footer{
+    font-family: 'miFuente';
+    width: 1920px;
+    height: 54px;
+    text-align: center;
+    color: white;
+    background: #5C5CD3;
+}
+
+
+
+
+
+

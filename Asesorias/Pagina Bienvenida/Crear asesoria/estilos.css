@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: 'miFuente';
+    src: url(arial-rounded.ttf);
+}
+
+body{
+    width: 1920px;
+    height: 1080px;
+}
+
+.cabecera{
+    margin: 0px;
+    padding: 0px;
+    width: 1920px;
+    height: 162px;
+    background: #5c93d3;
+    color: white;
+}
+
+.logo{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 7px;
+    left: 100px;
+}
+
+.botonPerfil{
+    margin: 0px;
+    padding: 0px;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 27px;
+    left: 1390px;
+}
+
+.botonNotificaciones{
+    margin: 0px;
+    padding: 0px;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 27px;
+    left: 1550px;
+}
+
+.botonMensaje{
+    margin: 0px;
+    padding: 0px;
+    width: 87px;
+    height: 62px;
+    position: absolute;
+    top: 35px;
+    left: 1723px;
+}
+
+.cuerpo{
+    width: 1920px;
+    height: 860px;
+    color: white;
+    background-color: #5c68d3;
+}
+
+
+#titulo{
+    margin-top: 30px;
+    margin-left: 550px;
+    position: absolute;
+    font-family: 'miFuente';
+    font-size: 80px;
+}
+
+.apartados{
+    margin-left: 100px;
+    margin-top: 80px;
+    position: absolute;
+    font-family: 'miFuente';
+    font-size: 30px;
+}
+
+.horaInicio{
+    margin-left: 850px;
+    margin-top: 310px;
+    position: absolute;
+    font-family: 'miFuente';
+    font-size: 30px;
+}
+
+#duracionText{
+    margin-top: 80px;
+}
+
+#inicioText{
+    margin-top: 80px;
+}
+
+#imagenText{
+    margin-top: 100px;
+}
+
+.aclaracion{
+    margin-left: 780px;
+    margin-top: 650px;
+    position: absolute;
+    font-family: 'miFuente';
+    font-size: 15px;
+}
+
+.fechas{
+    margin-left: 550px;
+    margin-top: 300px;
+    position: absolute;
+}
+
+#fecha{
+    font-family: 'miFuente';
+    font-size: 35px;
+    color: white;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: white;
+    background-color: transparent;
+}
+
+#hora{
+    margin-left: 450px;
+    font-family: 'miFuente';
+    font-size: 35px;
+    color: white;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: white;
+    background-color: transparent;
+}
+
+.datosAsesoria{
+    margin-left: 550px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+#temaInput{
+    font-family: 'miFuente';
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.8);
+    width: 800px;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#duracionInput{
+    margin-top: 80px;
+    font-family: 'miFuente';
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.8);
+    width: 800px;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.imagen{
+    margin-top: 450px;
+    margin-left: 850px;
+    position: absolute;
+}
+
+#imagenBase{
+    border: white;
+    border-width: 5px;
+}
+
+.botonPublicar{
+    margin-top: 760px;
+    margin-left: 1600px;
+    position: absolute;
+}
+
+#publicar{
+    width: 250px;
+    height: 90px;
+    font-family: 'miFuente';
+    font-size: 35px;
+}
+
+footer{
+    margin-right: 100px;
+    margin-bottom: 100px;
+    font-family: 'miFuente';
+    width: 1920px;
+    height: 54px;
+    text-align: center;
+    color: white;
+    background: #5C5CD3;
+}
+
+
+
+
+
+
